@@ -26,9 +26,14 @@
   width: 100%;
 }
 
-.formInput .error {
-  border: #EE3B3B;
+.errorInput {
+  border: 1px solid  #EE3B3B;
   color: #EE3B3B;
+}
+
+.errorMessage {
+  color: #EE3B3B;
+  margin-bottom: 0.5rem;
 }
 
 .formButton {
