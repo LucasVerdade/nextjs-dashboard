@@ -3,7 +3,10 @@ import NavbarLayout from '@/components/layouts/navbar/NavbarLayout';
 import { NextPageWithLayout } from "./page";
 
 const About: NextPageWithLayout = () => {
-  return (<>About</>);
+  return (<>
+  <h1>About page</h1>
+  <p>Placeholder</p>
+  </>);
 };
 
 export default About;

@@ -5,6 +5,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+        <link
+            rel="preload"
+            href="/fonts/Satoshi/Satoshi-Variable.ttf"
+            as="font"
+            crossOrigin=""
+          />
         </Head>
         <body>
           <Main />
