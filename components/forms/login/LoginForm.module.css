@@ -1,0 +1,57 @@
+.form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.title {
+  font-size: 32pt;
+  color: #1f1f1f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formField {
+  margin-bottom: 1rem;
+}
+
+.formInput {
+  border: 2px solid #e1e1e1;
+  border-radius: 7px;
+  padding: 19px auto 19px 15px;
+  margin: 5px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.errorInput {
+  border: 1px solid  #EE3B3B;
+  color: #EE3B3B;
+}
+
+.errorMessage {
+  color: #EE3B3B;
+  margin-bottom: 0.5rem;
+}
+
+.formButton {
+  font-weight: bold;
+  background: #0F876E;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 7px;
+  width: 100%;
+}
+
+.formButton:hover {
+  background: #33CC99;
+}
+
+.formFooter a {
+  color: #0F876E;
+}
