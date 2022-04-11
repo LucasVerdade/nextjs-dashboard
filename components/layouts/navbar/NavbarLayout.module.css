@@ -1,3 +1,12 @@
-.main {
-  
+.container {
+
+}
+
+.container a {
+  text-decoration: none;
+  color: #0F876E;
+}
+
+.container a:hover {
+  color: #33CC99;
 }
