@@ -21,7 +21,7 @@ const LoginForm: React.FC<ILoginForm> = () => {
     if (typeof result === "boolean" && result) {
       router.push("/");
     }
-    if (result?.error && result.status === 401) {
+    if ((result as any)?.error && (result as any).status === 401) {
       setError("email", {
         type: "custom",
         message: "Email e/ou senha inválidos",
